@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 # Load model
-with open(r"C:\Users\shash\OneDrive\Desktop\ML_flow\mlruns\4\models\m-ce0776034df642a09da61588abf60b81\artifacts\model.pkl", "rb") as f:
+with open(r"model.pkl", "rb") as f:
     model = pickle.load(f)
 
 st.set_page_config(
